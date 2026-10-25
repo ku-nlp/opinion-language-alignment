@@ -1,0 +1,19 @@
+# Analysis and figures (what is needed to reproduce every number, table and figure
+# of the paper from the files in results/):
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+matplotlib>=3.9
+adjustText>=1.1
+seaborn>=0.13
+
+# Running the models (only needed to regenerate results/<model>/parsed.csv and
+# results/aaai/ from scratch):
+openai>=1.50          # GPT-3.5 Turbo, GPT-4.1 and GPT-5 through the Batch API
+torch>=2.4            # open-weight models and the residual-stream dumps
+transformers>=4.45
+vllm>=0.6
+
+# Building a questionnaire from an official WVS country PDF (code/questionnaire.py):
+pymupdf>=1.24
+pdfplumber>=0.11

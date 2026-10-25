@@ -1,0 +1,251 @@
+{
+ "zh": {
+  "instr": [
+   "我将提供一系列问题的答案选项分布，以帮助您理解本任务的格式。在5个示例之后，请根据您对人类可能如何回答的理解，表达该问题的答案分布。请不要遵循示例中表达的分布，因为它们仅用于示例格式，请根据您对人类可能如何回答的理解表达分布。请仅以字典映射格式回答，即将答案选项编号与概率映射，不包含额外空格、字符、引号或文本。请仅以这种格式生成1句话。不符合此格式的答案将不被接受。",
+   "首先，我将提供几个该任务的示例，以便您了解答案的格式要求，随后您将自行完成该任务。"
+  ],
+  "fewshot": "lang-zh_dist-random.txt",
+  "tail": [
+   "\n您的回答： ",
+   "\n问题: ",
+   "\n",
+   "\n答案:"
+  ],
+  "fewshot_aaai": "lang-Zh_dist-random.txt"
+ },
+ "ja": {
+  "instr": [
+   "このタスクのフォーマットを理解いただくため、一連の質問に対する回答選択肢の分布を示します。5つの例示の後、質問された内容に対する回答の分布を表現してください。例示で示された分布に従わないでください。これらはフォーマットの例を示すためのものであり、人間の回答パターンを基に、ご自身の理解に基づいて分布を表現してください。辞書形式で、回答選択肢の番号と確率を対応させる正確な形式で回答してください。余分なスペース、文字、引用符、またはテキストは含まないでください。この形式で1文のみを提出してください。この形式外の回答は受け付けられません。",
+   "まず、このタスクの例をいくつか示し、回答のフォーマットのイメージを掴んでいただきます。その後、ご自身でタスクを実施していただきます。"
+  ],
+  "fewshot": "lang-ja_dist-random.txt",
+  "tail": [
+   "\nあなたの番です！ ",
+   "\n質問: ",
+   "\n",
+   "\n回答:"
+  ],
+  "fewshot_aaai": "lang-Ja_dist-random.txt"
+ },
+ "de": {
+  "instr": [
+   "Ich werde Ihnen eine Verteilung der Antwortmöglichkeiten für eine Reihe von Fragen zur Verfügung stellen, damit Sie das Format dieser Aufgabe besser verstehen können. Nach den 5 Beispielen geben Sie bitte die Verteilung der Antworten für die gestellte Frage an. Folgen Sie nicht der in den Beispielen angegebenen Verteilung, da diese nur dazu dient, Ihnen ein Beispiel für das Format zu geben. Geben Sie die Verteilung basierend auf Ihrem Verständnis davon an, wie Menschen antworten könnten. Bitte antworten Sie nur in dem genauen Format eines Wörterbuchs, in dem die Antwortauswahlnummer der Wahrscheinlichkeit zugeordnet ist, ohne zusätzliche Leerzeichen, Zeichen, Anführungszeichen oder Text. Bitte verfassen Sie nur einen Satz in diesem Format. Antworten außerhalb dieses Formats werden nicht akzeptiert. ",
+   "Zunächst werde ich Ihnen einige Beispiele für diese Aufgabe geben, damit Sie ein Gefühl für die Formatierung der Antwort bekommen. Anschließend werden Sie die Aufgabe selbst ausführen."
+  ],
+  "fewshot": "lang-de_dist-random.txt",
+  "tail": [
+   "\nDu bist dran! ",
+   "\nFrage: ",
+   "\n",
+   "\nAntwort:"
+  ],
+  "fewshot_aaai": "lang-De_dist-random.txt"
+ },
+ "ko": {
+  "instr": [
+   "이 작업의 형식을 이해하는 데 도움을 드리기 위해 일련의 질문에 대한 답변 선택지의 분포를 제공하겠습니다. 5개의 예시 이후에는 제시된 질문에 대한 답변의 분포를 표현해 주시기 바랍니다. 예시에서 표현된 분포를 따르지 마십시오. 예시는 단순히 형식을 보여주기 위한 것이며, 인간이 어떻게 응답할지 이해한 대로 분포를 표현해 주시기 바랍니다. 답변은 반드시 사전 형식으로, 답변 선택지 번호와 확률을 매핑하는 형식으로만 작성해 주시기 바랍니다. 추가 공백, 문자, 따옴표 또는 텍스트는 포함하지 마십시오. 이 형식으로 단 한 문장만 작성해 주시기 바랍니다. 이 형식 외의 답변은 수용되지 않습니다. ",
+   "먼저 이 작업의 몇 가지 예를 들어 답변 형식을 이해하시도록 도와드리겠습니다. 그 다음에는 직접 작업을 수행해 보시게 될 것입니다."
+  ],
+  "fewshot": "lang-ko_dist-random.txt",
+  "tail": [
+   "\n이제 당신의 차례입니다! ",
+   "\n문제: ",
+   "\n",
+   "\n답변:"
+  ],
+  "fewshot_aaai": "lang-Ko_dist-random.txt"
+ },
+ "ru": {
+  "instr": [
+   "Я предоставлю распределения по вариантам ответов для ряда вопросов, чтобы помочь вам понять формат этой задачи. После 5 примеров, опираясь на ваше понимание того, как могли бы отвечать люди, выразите распределение по вариантам для данного вопроса. Пожалуйста, не следуйте распределениям из примеров — они предназначены только для демонстрации формата; укажите распределение согласно вашему пониманию того, как отвечали бы люди. Отвечайте только в формате отображения словаря, то есть сопоставьте номера вариантов ответов с вероятностями, без дополнительных пробелов, символов, кавычек или текста. Сгенерируйте ровно одну строку в этом формате. Ответы, не соответствующие этому формату, не будут приняты.",
+   "Сначала я приведу несколько примеров этой задачи, чтобы вы поняли требования к формату ответа, после чего вы выполните задачу самостоятельно."
+  ],
+  "fewshot": "lang-ru_dist-random.txt",
+  "tail": [
+   "\nВаш ответ: ",
+   "\nВопрос: ",
+   "\n",
+   "\nОтвет:"
+  ],
+  "fewshot_aaai": "lang-Ru_dist-random.txt"
+ },
+ "vi": {
+  "instr": [
+   "Tôi sẽ cung cấp phân bố các phương án trả lời cho một loạt câu hỏi để giúp bạn hiểu định dạng của nhiệm vụ này. Sau 5 ví dụ, hãy biểu diễn phân bố câu trả lời cho câu hỏi dựa trên hiểu biết của bạn về cách con người có thể trả lời. Vui lòng không làm theo các phân bố trong ví dụ, vì chúng chỉ dùng để minh họa định dạng; hãy biểu diễn phân bố theo hiểu biết của bạn về cách con người có thể trả lời. Chỉ được trả lời theo định dạng ánh xạ từ điển, tức là ánh xạ số thứ tự phương án với xác suất, không chứa khoảng trắng thừa, ký tự, dấu ngoặc kép hoặc văn bản bổ sung. Chỉ tạo đúng 1 dòng theo định dạng này. Câu trả lời không đúng định dạng sẽ bị từ chối.",
+   "Trước hết, tôi sẽ cung cấp một vài ví dụ của nhiệm vụ này để bạn hiểu yêu cầu về định dạng câu trả lời, sau đó bạn sẽ tự hoàn thành nhiệm vụ."
+  ],
+  "fewshot": "lang-vi_dist-random.txt",
+  "tail": [
+   "\nCâu trả lời của bạn: ",
+   "\nCâu hỏi: ",
+   "\n",
+   "\nĐáp án:"
+  ],
+  "fewshot_aaai": "lang-Vi_dist-random.txt"
+ },
+ "pt": {
+  "instr": [
+   "Vou fornecer a distribuição das opções de resposta de uma série de perguntas, para ajudá-lo a entender o formato desta tarefa. Após 5 exemplos, expresse a distribuição das respostas para a questão dada com base no seu entendimento de como humanos provavelmente responderiam. Não siga as distribuições apresentadas nos exemplos, pois elas servem apenas para ilustrar o formato; expresse a distribuição de acordo com o seu entendimento de como humanos provavelmente responderiam. Responda apenas no formato de mapeamento de dicionário, isto é, mapeando o número de cada opção de resposta para a sua probabilidade, sem espaços extras, caracteres, aspas ou texto adicionais. Gere apenas 1 frase nesse formato. Respostas que não estiverem nesse formato não serão aceitas.",
+   "Primeiro, fornecerei alguns exemplos desta tarefa para que você entenda os requisitos de formatação das respostas; em seguida, você concluirá a tarefa por conta própria."
+  ],
+  "fewshot": "lang-pt_dist-random.txt",
+  "tail": [
+   "\nSua resposta: ",
+   "\nPergunta: ",
+   "\n",
+   "\nResposta:"
+  ],
+  "fewshot_aaai": "lang-Pt_dist-random.txt"
+ },
+ "es": {
+  "instr": [
+   "Voy a proporcionar la distribución de opciones de respuesta para una serie de preguntas, para ayudarle a comprender el formato de esta tarea. Después de cinco ejemplos, por favor exprese la distribución de respuestas para la pregunta según su comprensión de cómo podrían responder los humanos. No siga las distribuciones mostradas en los ejemplos, ya que son solo para ilustrar el formato; exprese la distribución basándose en su comprensión de cómo podrían responder los humanos. Por favor, responda únicamente en el formato de mapeo de diccionario, asignando el número de cada opción de respuesta a su probabilidad, sin espacios, caracteres, comillas o texto adicionales. Genere solo una frase en este formato. Las respuestas que no cumplan este formato no serán aceptadas.",
+   "Primero, proporcionaré algunos ejemplos de esta tarea para que comprenda los requisitos de formato de las respuestas; luego completará la tarea por su cuenta."
+  ],
+  "fewshot": "lang-es_dist-random.txt",
+  "tail": [
+   "\nSu respuesta: ",
+   "\nPregunta: ",
+   "\n",
+   "\nRespuesta:"
+  ],
+  "fewshot_aaai": "lang-Es_dist-random.txt"
+ },
+ "en_baseline": {
+  "instr": [
+   "I will provide a distribution over answer choices on a series of questions to help you understand the formatting of this task. After the 5 examples, please express the distribution of answers for the question asked. Do not follow the distribution expressed in the examples as they are only to give you an example of formatting, express the distribution based on your understanding of how humans may respond. Please only respond in the exact format of a dictionary mapping answer choice number to probability, no extra spaces, characters, quotes or text. Please only produce 1 sentence in this format. Answers outside of this format will not be accepted. ",
+   "First I will provide a few examples of this task just to give you a sense of the answer formatting, then you will perform the task yourself."
+  ],
+  "fewshot": "lang-en_dist-random.txt",
+  "tail": [
+   "\nYour turn! ",
+   "\nQuestion: ",
+   "\n",
+   "\nAnswer:"
+  ],
+  "fewshot_aaai": "lang-En_dist-random.txt"
+ },
+ "en_persona": {
+  "instr": [
+   "I will provide a distribution over answer choices on a series of questions to help you understand the formatting of this task. After the 5 examples, please express the distribution of answers from a group of {} for the question asked. Do not follow the distribution expressed in the examples as they are only to give you an example of formatting, express the distribution based on your understanding of how humans may respond. Please only respond in the exact format of a dictionary mapping answer choice number to probability, no extra spaces, characters, quotes or text. Please only produce 1 sentence in this format. Answers outside of this format will not be accepted. ",
+   "First I will provide a few examples of this task just to give you a sense of the answer formatting, then you will perform the task yourself for {}."
+  ],
+  "fewshot": "lang-en_dist-random.txt",
+  "tail": [
+   "\nYour turn! ",
+   "\nQuestion: ",
+   "\n",
+   "\nAnswer:"
+  ],
+  "fewshot_aaai": "lang-En_dist-random.txt"
+ },
+ "el": {
+  "instr": [
+   "Θα σας παράσχω μια κατανομή των επιλογών απάντησης για μια σειρά ερωτήσεων, ώστε να σας βοηθήσω να κατανοήσετε τη μορφή αυτής της εργασίας. Μετά τα 5 παραδείγματα, παρακαλώ εκφράστε την κατανομή των απαντήσεων για την ερώτηση που τίθεται. Μην ακολουθήσετε την κατανομή που εκφράζεται στα παραδείγματα, καθώς αυτά χρησιμεύουν μόνο για να σας δώσουν ένα παράδειγμα της μορφοποίησης· εκφράστε την κατανομή με βάση την κατανόησή σας για το πώς μπορεί να απαντούσαν οι άνθρωποι. Παρακαλώ απαντήστε μόνο στην ακριβή μορφή ενός λεξικού που αντιστοιχίζει τον αριθμό επιλογής απάντησης στην πιθανότητα, χωρίς επιπλέον κενά, χαρακτήρες, εισαγωγικά ή κείμενο. Παρακαλώ δημιουργήστε μόνο 1 πρόταση σε αυτήν τη μορφή. Απαντήσεις εκτός αυτής της μορφής δεν θα γίνονται δεκτές. ",
+   "Πρώτα θα σας παράσχω μερικά παραδείγματα αυτής της εργασίας, απλώς για να αποκτήσετε μια αίσθηση της μορφοποίησης της απάντησης, και στη συνέχεια θα εκτελέσετε την εργασία μόνοι σας."
+  ],
+  "fewshot": "lang-el_dist-random.txt",
+  "tail": [
+   "\nΣειρά σας! ",
+   "\nΕρώτηση: ",
+   "\n",
+   "\nΑπάντηση:"
+  ],
+  "fewshot_aaai": "lang-el_dist-random.txt"
+ },
+ "tr": {
+  "instr": [
+   "Bu görevin biçimini anlamanıza yardımcı olmak için bir dizi soruda cevap seçenekleri üzerindeki dağılımı sağlayacağım. 5 örnekten sonra, lütfen sorulan soru için cevapların dağılımını ifade edin. Örneklerde ifade edilen dağılımı takip etmeyin; bunlar yalnızca size biçimlendirme örneği vermek içindir. Dağılımı, insanların nasıl cevap verebileceğine dair anlayışınıza dayanarak ifade edin. Lütfen yalnızca cevap seçeneği numarasını olasılıkla eşleyen bir sözlük biçiminde, fazladan boşluk, karakter, tırnak işareti veya metin olmadan cevap verin. Lütfen bu formatta yalnızca 1 cümle üretin. Bu formatın dışındaki cevaplar kabul edilmeyecektir. ",
+   "Önce, cevap biçimi hakkında fikir edinmeniz için bu görevin birkaç örneğini vereceğim; ardından görevi kendiniz gerçekleştireceksiniz."
+  ],
+  "fewshot": "lang-tr_dist-random.txt",
+  "tail": [
+   "\nSıra sizde! ",
+   "\nSoru: ",
+   "\n",
+   "\nCevap:"
+  ],
+  "fewshot_aaai": "lang-tr_dist-random.txt"
+ },
+ "uk": {
+  "instr": [
+   "Я надам розподіл за варіантами відповідей для низки запитань, щоб допомогти вам зрозуміти формат цього завдання. Після 5 прикладів, будь ласка, виразіть розподіл відповідей для поставленого запитання. Не дотримуйтеся розподілу, наведеного в прикладах, оскільки вони призначені лише для демонстрації формату; виразіть розподіл на основі вашого розуміння того, як люди можуть відповідати. Будь ласка, відповідайте лише в точному форматі словника, що зіставляє номер варіанта відповіді з імовірністю, без додаткових пробілів, символів, лапок або тексту. Будь ласка, створіть лише 1 речення в цьому форматі. Відповіді поза цим форматом не прийматимуться. ",
+   "Спочатку я наведу кілька прикладів цього завдання, щоб ви зрозуміли форматування відповіді, після чого ви виконаєте завдання самостійно."
+  ],
+  "fewshot": "lang-uk_dist-random.txt",
+  "tail": [
+   "\nВаша черга! ",
+   "\nЗапитання: ",
+   "\n",
+   "\nВідповідь:"
+  ],
+  "fewshot_aaai": "lang-uk_dist-random.txt"
+ },
+ "kk": {
+  "instr": [
+   "Осы тапсырманың форматын түсінуге көмектесу үшін мен бірқатар сұрақтар бойынша жауап нұсқаларының үлестірімін ұсынамын. 5 мысалдан кейін қойылған сұраққа жауаптардың үлестірімін көрсетіңіз. Мысалдарда көрсетілген үлестірімді қайталамаңыз, өйткені олар тек форматтың үлгісін беру үшін арналған; адамдар қалай жауап беруі мүмкін деген түсінігіңізге сүйеніп, үлестірімді көрсетіңіз. Тек жауап нұсқасының нөмірін ықтималдыққа сәйкестендіретін сөздік форматының дәл түрінде ғана жауап беріңіз, артық бос орындар, таңбалар, тырнақшалар немесе мәтін қоспаңыз. Осы форматта дәл 1 сөйлем ғана жасаңыз. Бұл форматтан тыс жауаптар қабылданбайды. ",
+   "Алдымен мен жауап форматын түсінуіңіз үшін осы тапсырманың бірнеше мысалын келтіремін, содан кейін тапсырманы өзіңіз орындайсыз."
+  ],
+  "fewshot": "lang-kk_dist-random.txt",
+  "tail": [
+   "\nСіздің кезегіңіз! ",
+   "\nСұрақ: ",
+   "\n",
+   "\nЖауап:"
+  ],
+  "fewshot_aaai": "lang-kk_dist-random.txt"
+ },
+ "ky": {
+  "instr": [
+   "Бул тапшырманын форматын түшүнүүгө жардам берүү үчүн бир катар суроолор боюнча жооп варианттарынын бөлүштүрүлүшүн берем. 5 мисалдан кийин, суралган суроо үчүн жооптордун бөлүштүрүлүшүн көрсөтүңүз. Мисалдардагы бөлүштүрүлүштү ээрчибеңиз, анткени алар форматты гана көрсөтүү үчүн берилген; адамдар кандай жооп бериши мүмкүн деген түшүнүгүңүзгө таянып бөлүштүрүлүштү көрсөтүңүз. Сураныч, жооп варианттарынын номерлерин ыктымалдыктарга дал келтирген сөздүк форматында гана жооп бериңиз, кошумча боштуктарсыз, символдорсуз, тырмакчаларсыз же текстсиз. Ушул форматта так 1 сүйлөм гана түзүңүз. Бул форматтан тышкаркы жооптор кабыл алынбайт. ",
+   "Алгач жооптун форматталышы жөнүндө түшүнүк берүү үчүн бул тапшырманын бир нече мисалын берем, андан кийин тапшырманы өзүңүз аткарасыз."
+  ],
+  "fewshot": "lang-ky_dist-random.txt",
+  "tail": [
+   "\nЭми сиздин кезегиңиз! ",
+   "\nСуроо: ",
+   "\n",
+   "\nЖооп:"
+  ],
+  "fewshot_aaai": "lang-ky_dist-random.txt"
+ },
+ "fr": {
+  "instr": [
+   "Je vous fournirai une distribution des choix de réponse pour une série de questions afin de vous aider à comprendre le format de cette tâche. Après les 5 exemples, veuillez exprimer la distribution des réponses pour la question posée. Ne suivez pas la distribution exprimée dans les exemples, car ils servent uniquement à vous donner un exemple de formatage ; exprimez la distribution selon votre compréhension de la manière dont les humains pourraient répondre. Veuillez répondre uniquement dans le format exact d’un dictionnaire associant le numéro du choix de réponse à la probabilité, sans espaces, caractères, guillemets ou texte supplémentaires. Veuillez produire une seule phrase dans ce format. Les réponses qui ne respectent pas ce format ne seront pas acceptées. ",
+   "Tout d’abord, je vous fournirai quelques exemples de cette tâche afin de vous donner une idée du format de réponse, puis vous effectuerez la tâche vous-même."
+  ],
+  "fewshot": "lang-fr_dist-random.txt",
+  "tail": [
+   "\nÀ vous ! ",
+   "\nQuestion: ",
+   "\n",
+   "\nRéponse:"
+  ]
+ },
+ "ar": {
+  "instr": [
+   "سأقدّم لك توزيعًا على خيارات الإجابة لسلسلة من الأسئلة لمساعدتك على فهم تنسيق هذه المهمة. بعد الأمثلة الخمسة، يرجى التعبير عن توزيع الإجابات للسؤال المطروح. لا تتبع التوزيع الوارد في الأمثلة، فهي مخصّصة فقط لإعطائك مثالًا على التنسيق؛ عبّر عن التوزيع بناءً على فهمك لكيفية احتمال أن يجيب البشر. يرجى الرد فقط بالتنسيق الدقيق لقاموس يطابق رقم خيار الإجابة مع الاحتمال، من دون مسافات أو أحرف أو علامات اقتباس أو نص إضافي. يرجى إنتاج جملة واحدة فقط بهذا التنسيق. لن تُقبل الإجابات خارج هذا التنسيق. ",
+   "أولًا، سأقدّم لك بعض الأمثلة على هذه المهمة فقط لتكوين فكرة لديك عن تنسيق الإجابة، ثم ستؤدي المهمة بنفسك."
+  ],
+  "fewshot": "lang-ar_dist-random.txt",
+  "tail": [
+   "\nحان دورك! ",
+   "\nالسؤال: ",
+   "\n",
+   "\nالإجابة:"
+  ]
+ },
+ "zt": {
+  "instr": [
+   "我將提供一系列問題的答案選項分布，以幫助您了解此任務的格式。在 5 個範例之後，請表達所提問題的答案分布。請不要遵循範例中所表達的分布，因為它們只是用來提供格式範例；請根據您對人們可能如何回答的理解來表達分布。請僅以字典映射的確切格式回答，也就是將答案選項編號對應到機率，不要包含額外空格、字元、引號或文字。請僅以此格式產生 1 個句子。不符合此格式的答案將不被接受。 ",
+   "首先，我會提供此任務的幾個範例，只是為了讓您了解答案格式，然後您將自行執行此任務。"
+  ],
+  "fewshot": "lang-zt_dist-random.txt",
+  "tail": [
+   "\n輪到您了！ ",
+   "\n問題: ",
+   "\n",
+   "\n答案:"
+  ]
+ }
+}

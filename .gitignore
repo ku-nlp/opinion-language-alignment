@@ -1,0 +1,22 @@
+# Model free-text outputs and API request/batch dumps: regenerable, not distributed.
+# results/<model>/parsed.csv (the parsed answers without the free text) is tracked.
+results/*/raw.csv
+results/*/requests.jsonl
+results/*/batch.json
+results/*/langonly_requests.jsonl
+results/*/langonly_batch.json
+results/aaai_batch/
+
+# Derived caches and the residual-stream dumps (tens of GB per model).
+results/channel_means/
+hidden/
+
+# WVS data files must be downloaded from worldvaluessurvey.org (see README).
+dataset/
+*.WV5.csv
+*.WV6.csv
+*.WV7.csv
+
+__pycache__/
+*.pyc
+.DS_Store
